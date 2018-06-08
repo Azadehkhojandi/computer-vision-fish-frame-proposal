@@ -6,4 +6,6 @@ depends on your use case, you can adjust the extract rate. You can define to ext
 Please note in your production environment we won't recommend adding videos and extracted frame. It's only added as a sample and for your reference only 
 
 
+[Steve Van Bodegraven](https://www.linkedin.com/in/svanbodegraven/), came up with `frame proposal` term. 
+
 
