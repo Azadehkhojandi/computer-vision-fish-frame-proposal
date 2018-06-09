@@ -47,7 +47,7 @@ Now you need to update the computer vision subscription key and replace it with 
 ![alt text](https://4.bp.blogspot.com/-z0NhakHb5vM/WxurYqkBT7I/AAAAAAAACV8/fNfN0ip8XF0XhwEjjcWVJ51wpPgErr-VgCLcBGAs/s640/subscriptionKey.PNG "subscriptionKey")
 
 Run each block from the beginning. Select the first block and then click on "Run" from the toolbar and continue till after Analysing the extracted frames. extract frames from video block, extracts a frame every 2 seconds, based on your experience you can increase or decrease the export rate.
-Then Alanlysing the extracted frames, analyses every extracted frame and shows the frames that it detected fish in it. It also show it's confidence level.
+Then Alanlysing the extracted frames, analyses every extracted frame and shows the frames that it detected fish in it. It also shows it's confidence level.
 
 ![alt text](https://1.bp.blogspot.com/-yzyQ0qTcwBI/WxuszErviKI/AAAAAAAACWQ/8VxieoVFZDsRjBrcVKYa80UKF88YgzqMwCLcBGAs/s640/analyse.PNG "anlysing the images")
 
