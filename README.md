@@ -5,7 +5,6 @@ depends on your use case, you can adjust the extract rate. You can define to ext
 
 Please note in your production environment we won't recommend adding videos and extracted frame. It's only added as a sample and for your reference only 
 
-[read more](http://azadehkhojandi.blogspot.com/2018/06/computer-vision-fish-frame-proposal.html)
 
 [Steve Van Bodegraven](https://www.linkedin.com/in/svanbodegraven/), works directly with fisheries across Australia and help them to adopt new technologies and improve the manual processes by using AI and machine learning. He came up with `frame proposal` term. 
 
@@ -26,7 +25,12 @@ The easiest approach is using out of the box services to analyse the image and g
 
 ![alt text](https://1.bp.blogspot.com/-NHcdt-21bew/WxugM_DR90I/AAAAAAAACVU/HbyqCZvzKDY0Kux1rvlv_Vc1soCRyS5PwCLcBGAs/s640/Steps.PNG "How it works")
 
+First, you need to get subscription key to use Microsoft computer vision, you can get free keys from [here] (https://azure.microsoft.com/en-us/try/cognitive-services/)  I used the paid API to avoid hitting the limits on calling API per minute.
+
+![aly text](https://3.bp.blogspot.com/-PEdBPfGdTYo/WxunKlutulI/AAAAAAAACVg/DwvKpY-KvkM9dSe33TYv1LXKfaWanj-uACLcBGAs/s400/pricing.PNG "pricing")
+
+The notebook is self-explanatory, It's written in python 3.5 and you can easily run it after cloning the repository.  If you don't have anaconda, you can download it from [here] (https://anaconda.org/download)
 
 
-
+[read it on my blog](http://azadehkhojandi.blogspot.com/2018/06/computer-vision-fish-frame-proposal.html)
 
