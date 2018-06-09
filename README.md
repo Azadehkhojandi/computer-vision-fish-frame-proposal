@@ -27,10 +27,27 @@ The easiest approach is using out of the box services to analyse the image and g
 
 First, you need to get subscription key to use Microsoft computer vision, you can get free keys from [here] (https://azure.microsoft.com/en-us/try/cognitive-services/)  I used the paid API to avoid hitting the limits on calling API per minute.
 
-![aly text](https://3.bp.blogspot.com/-PEdBPfGdTYo/WxunKlutulI/AAAAAAAACVg/DwvKpY-KvkM9dSe33TYv1LXKfaWanj-uACLcBGAs/s400/pricing.PNG "pricing")
+![alt text](https://3.bp.blogspot.com/-PEdBPfGdTYo/WxunKlutulI/AAAAAAAACVg/DwvKpY-KvkM9dSe33TYv1LXKfaWanj-uACLcBGAs/s400/pricing.PNG "pricing")
 
 The notebook is self-explanatory, It's written in python 3.5 and you can easily run it after cloning the repository.  If you don't have anaconda, you can download it from [here] (https://anaconda.org/download)
 
 
 [read it on my blog](http://azadehkhojandi.blogspot.com/2018/06/computer-vision-fish-frame-proposal.html)
 
+![alt text](https://4.bp.blogspot.com/-_u66jCsdYoY/WxuqDr---jI/AAAAAAAACVs/8tDQki5BH506vbfCG9qL_8LKBvS4m6T7wCLcBGAs/s640/anaconda.PNG "command prompt")
+
+![alt text](https://3.bp.blogspot.com/-StxaMePPswk/Wxuq4F3gNcI/AAAAAAAACV0/HzzvCyHET-Y69s76QQx8osAlwLibfSllQCLcBGAs/s640/notebookhomepage.PNG "notebook home page")
+
+All you need to do is copy your video into the videos folder. Then open "Export_Frames_From_Video.ipynb"
+Now you need to update the computer vision subscription key and replace it with your key
+
+![alt text](https://4.bp.blogspot.com/-z0NhakHb5vM/WxurYqkBT7I/AAAAAAAACV8/fNfN0ip8XF0XhwEjjcWVJ51wpPgErr-VgCLcBGAs/s640/subscriptionKey.PNG "subscriptionKey")
+
+Run each block from the beginning. Select the first block and then click on "Run" from the toolbar and continue till after Analysing the extracted frames. extract frames from video block, extracts a frame every 2 seconds, based on your experience you can increase or decrease the export rate.
+Then Alanlysing the extracted frames, analyses every extracted frame and shows the frames that it detected fish in it. It also show it's confidence level.
+
+![alt text](https://1.bp.blogspot.com/-yzyQ0qTcwBI/WxuszErviKI/AAAAAAAACWQ/8VxieoVFZDsRjBrcVKYa80UKF88YgzqMwCLcBGAs/s640/analyse.PNG "anlysing the images")
+
+In the end, you will get two CSV file. The first file lists all the frames and the second one has a list of frames which computer detected fish in it.
+
+If you want to investigate more or add more frames to the extracted frames, you can update the parameters and continue running the blocks if it's required.
