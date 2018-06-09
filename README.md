@@ -7,7 +7,9 @@ Please note in your production environment we won't recommend adding videos and 
 
 [Steve Van Bodegraven](https://www.linkedin.com/in/svanbodegraven/), works directly with fisheries across Australia and lead projects that help fisheries to adopt new technologies and improve the manual processes by using AI and machine learning. He came up with `frame proposal` term. 
 
+[read it on my blog](http://azadehkhojandi.blogspot.com/2018/06/computer-vision-fish-frame-proposal.html)
 
+# Your life as marine biologist
 Imagine you are a marine biologist! On weekly basis, you go to specific spots in the ocean to study fish diversity, abundance and behaviour of species over time. You will use Baited remote underwater video, named BRUV to record what’s happening underwater. This part of the job if you like water and outdoor actives are super awesome!
 Then you will come back from the work excursion and classify recorded videos based on date, time and location of the recording. After that, you will start watching recordings. If you think all the video recordings will like planet earth or other underwater documentaries, YOU ARE WRONG!
 Most of the recording will be the body of water and empty of life for minutes then there will be a magical moment that you will see one or two fishes, sharks or school of fish then again the body of water.
@@ -20,6 +22,8 @@ As a scientist, you will like to maximize your fun and minimize the boring parts
 
 The question is, how we can automate the process? What we want is replace the computer with a human to see the videos and tells us which frame has fish in it.  In the engineering world, this type of tasks called computer vision. We want computer sees the photos or videos and analyses them and have the same understanding as human.
 
+## how it works
+
 The easiest approach is using out of the box services to analyse the image and get information about visual content found in it. I used Microsoft computer vision API which can recognise 2000 objects to find out if there is a fish in the image or not. 
 
 ![alt text](https://1.bp.blogspot.com/-NHcdt-21bew/WxugM_DR90I/AAAAAAAACVU/HbyqCZvzKDY0Kux1rvlv_Vc1soCRyS5PwCLcBGAs/s640/Steps.PNG "How it works")
@@ -31,7 +35,7 @@ First, you need to get subscription key to use Microsoft computer vision, you ca
 The notebook is self-explanatory, It's written in python 3.5 and you can easily run it after cloning the repository.  If you don't have anaconda, you can download it from [here] (https://anaconda.org/download)
 
 
-[read it on my blog](http://azadehkhojandi.blogspot.com/2018/06/computer-vision-fish-frame-proposal.html)
+
 
 ![alt text](https://4.bp.blogspot.com/-_u66jCsdYoY/WxuqDr---jI/AAAAAAAACVs/8tDQki5BH506vbfCG9qL_8LKBvS4m6T7wCLcBGAs/s640/anaconda.PNG "command prompt")
 
